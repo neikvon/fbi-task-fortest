@@ -1,0 +1,32 @@
+{
+  "name": "fbi-task-fortest",
+  "version": "0.0.1",
+  "description": "This repo is for test purposes only.",
+  "main": "index.js",
+  "scripts": {
+    "release-patch": "npm version patch && git push && git push --tags",
+    "release-minor": "npm version minor && git push && git push --tags",
+    "release-major": "npm version major && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neikvon/fbi-task-fortest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neikvon/fbi-task-fortest/issues"
+  },
+  "homepage": "https://github.com/neikvon/fbi-task-fortest#readme",
+  "fbi": {
+    "template": {
+      "name": "fbi-task-fortest"
+    },
+    "tasks": {
+      "fortest": {
+        "alias": "ft"
+      }
+    }
+  }
+}
